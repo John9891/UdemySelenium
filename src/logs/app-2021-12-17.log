@@ -1,0 +1,141 @@
+09:49:12.882 DEBUG logging.InternalLoggerFactory -Using Log4J2 as the default logging framework
+09:49:12.972 DEBUG util.ResourceLeakDetector --Dio.netty.leakDetection.level: simple
+09:49:12.973 DEBUG util.ResourceLeakDetector --Dio.netty.leakDetection.targetRecords: 4
+09:49:12.992 DEBUG util.ResourceLeakDetectorFactory -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@777ba8b6
+09:49:13.236 DEBUG internal.PlatformDependent0 --Dio.netty.noUnsafe: false
+09:49:13.238 DEBUG internal.PlatformDependent0 -Java version: 8
+09:49:13.242 DEBUG internal.PlatformDependent0 -sun.misc.Unsafe.theUnsafe: available
+09:49:13.244 DEBUG internal.PlatformDependent0 -sun.misc.Unsafe.copyMemory: available
+09:49:13.247 DEBUG internal.PlatformDependent0 -java.nio.Buffer.address: available
+09:49:13.256 DEBUG internal.PlatformDependent0 -direct buffer constructor: available
+09:49:13.260 DEBUG internal.PlatformDependent0 -java.nio.Bits.unaligned: available, true
+09:49:13.260 DEBUG internal.PlatformDependent0 -jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+09:49:13.260 DEBUG internal.PlatformDependent0 -java.nio.DirectByteBuffer.<init>(long, int): available
+09:49:13.260 DEBUG internal.PlatformDependent -sun.misc.Unsafe: available
+09:49:13.261 DEBUG internal.PlatformDependent --Dio.netty.tmpdir: C:\Users\JOHNGU~1\AppData\Local\Temp (java.io.tmpdir)
+09:49:13.262 DEBUG internal.PlatformDependent --Dio.netty.bitMode: 64 (sun.arch.data.model)
+09:49:13.267 DEBUG internal.PlatformDependent -Platform: Windows
+09:49:13.322 DEBUG internal.PlatformDependent --Dio.netty.maxDirectMemory: 3672637440 bytes
+09:49:13.323 DEBUG internal.PlatformDependent --Dio.netty.uninitializedArrayAllocationThreshold: -1
+09:49:13.326 DEBUG internal.CleanerJava6 -java.nio.ByteBuffer.cleaner(): available
+09:49:13.326 DEBUG internal.PlatformDependent --Dio.netty.noPreferDirect: false
+09:49:13.376 DEBUG internal.PlatformDependent -org.jctools-core.MpscChunkedArrayQueue: available
+09:49:13.501 DEBUG internal.InternalThreadLocalMap --Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+09:49:13.501 DEBUG internal.InternalThreadLocalMap --Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+09:49:15.757 DEBUG ssl.JdkSslContext -Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+09:49:15.757 DEBUG ssl.JdkSslContext -Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+09:49:15.937 DEBUG channel.MultithreadEventLoopGroup --Dio.netty.eventLoopThreads: 8
+09:49:15.989 DEBUG nio.NioEventLoop --Dio.netty.noKeySetOptimization: false
+09:49:15.990 DEBUG nio.NioEventLoop --Dio.netty.selectorAutoRebuildThreshold: 512
+09:49:16.022 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6b0010b9
+09:49:16.025 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@232823fc
+09:49:16.027 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@48467af8
+09:49:16.032 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7d93ee31
+09:49:16.038 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16c86639
+09:49:16.040 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@749d90df
+09:49:16.043 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@ff7b50e
+09:49:16.045 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6d7720a7
+09:49:16.207 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.numHeapArenas: 8
+09:49:16.208 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.numDirectArenas: 8
+09:49:16.208 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.pageSize: 8192
+09:49:16.208 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.maxOrder: 11
+09:49:16.208 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.chunkSize: 16777216
+09:49:16.208 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.smallCacheSize: 256
+09:49:16.208 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.normalCacheSize: 64
+09:49:16.208 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedBufferCapacity: 32768
+09:49:16.210 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimInterval: 8192
+09:49:16.210 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimIntervalMillis: 0
+09:49:16.210 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.useCacheForAllThreads: true
+09:49:16.210 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+09:49:16.261 DEBUG buffer.ByteBufUtil --Dio.netty.allocator.type: pooled
+09:49:16.263 DEBUG buffer.ByteBufUtil --Dio.netty.threadLocalDirectBufferSize: 0
+09:49:16.264 DEBUG buffer.ByteBufUtil --Dio.netty.maxThreadLocalCharBufferSize: 16384
+09:49:18.042 DEBUG channel.DefaultChannelId --Dio.netty.processId: 14368 (auto-detected)
+09:49:18.050 DEBUG util.NetUtil --Djava.net.preferIPv4Stack: false
+09:49:18.050 DEBUG util.NetUtil --Djava.net.preferIPv6Addresses: false
+09:49:19.169 DEBUG util.NetUtilInitializations -Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+09:49:19.172 DEBUG util.NetUtil -Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+09:49:20.269 DEBUG channel.DefaultChannelId --Dio.netty.machineId: 64:6e:69:ff:fe:e2:89:43 (auto-detected)
+09:49:20.505 DEBUG buffer.AbstractByteBuf --Dio.netty.buffer.checkAccessible: true
+09:49:20.506 DEBUG buffer.AbstractByteBuf --Dio.netty.buffer.checkBounds: true
+09:49:20.506 DEBUG util.ResourceLeakDetectorFactory -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2de0649e
+09:49:20.641 DEBUG util.Recycler --Dio.netty.recycler.maxCapacityPerThread: 4096
+09:49:20.641 DEBUG util.Recycler --Dio.netty.recycler.maxSharedCapacityFactor: 2
+09:49:20.641 DEBUG util.Recycler --Dio.netty.recycler.linkCapacity: 16
+09:49:20.641 DEBUG util.Recycler --Dio.netty.recycler.ratio: 8
+09:49:20.641 DEBUG util.Recycler --Dio.netty.recycler.delayedQueue.ratio: 8
+09:49:28.782 DEBUG compression.Brotli -brotli4j not in the classpath; Brotli support will be unavailable.
+09:49:30.644 DEBUG internal.ThreadLocalRandom --Dio.netty.initialSeedUniquifier: 0x8839d9d3fcf99831
+09:49:48.079 TRACE websocketx.WebSocket08FrameEncoder -Encoding WebSocket Frame opCode=8 length=26
+09:51:46.160 DEBUG logging.InternalLoggerFactory -Using Log4J2 as the default logging framework
+09:51:46.206 DEBUG util.ResourceLeakDetector --Dio.netty.leakDetection.level: simple
+09:51:46.206 DEBUG util.ResourceLeakDetector --Dio.netty.leakDetection.targetRecords: 4
+09:51:46.219 DEBUG util.ResourceLeakDetectorFactory -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@16bf1aa3
+09:51:46.297 DEBUG internal.PlatformDependent0 --Dio.netty.noUnsafe: false
+09:51:46.297 DEBUG internal.PlatformDependent0 -Java version: 8
+09:51:46.302 DEBUG internal.PlatformDependent0 -sun.misc.Unsafe.theUnsafe: available
+09:51:46.304 DEBUG internal.PlatformDependent0 -sun.misc.Unsafe.copyMemory: available
+09:51:46.306 DEBUG internal.PlatformDependent0 -java.nio.Buffer.address: available
+09:51:46.308 DEBUG internal.PlatformDependent0 -direct buffer constructor: available
+09:51:46.310 DEBUG internal.PlatformDependent0 -java.nio.Bits.unaligned: available, true
+09:51:46.311 DEBUG internal.PlatformDependent0 -jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+09:51:46.311 DEBUG internal.PlatformDependent0 -java.nio.DirectByteBuffer.<init>(long, int): available
+09:51:46.311 DEBUG internal.PlatformDependent -sun.misc.Unsafe: available
+09:51:46.313 DEBUG internal.PlatformDependent --Dio.netty.tmpdir: C:\Users\JOHNGU~1\AppData\Local\Temp (java.io.tmpdir)
+09:51:46.313 DEBUG internal.PlatformDependent --Dio.netty.bitMode: 64 (sun.arch.data.model)
+09:51:46.315 DEBUG internal.PlatformDependent -Platform: Windows
+09:51:46.318 DEBUG internal.PlatformDependent --Dio.netty.maxDirectMemory: 3672637440 bytes
+09:51:46.318 DEBUG internal.PlatformDependent --Dio.netty.uninitializedArrayAllocationThreshold: -1
+09:51:46.323 DEBUG internal.CleanerJava6 -java.nio.ByteBuffer.cleaner(): available
+09:51:46.324 DEBUG internal.PlatformDependent --Dio.netty.noPreferDirect: false
+09:51:46.364 DEBUG internal.PlatformDependent -org.jctools-core.MpscChunkedArrayQueue: available
+09:51:46.446 DEBUG internal.InternalThreadLocalMap --Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+09:51:46.446 DEBUG internal.InternalThreadLocalMap --Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+09:51:47.963 DEBUG ssl.JdkSslContext -Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+09:51:47.964 DEBUG ssl.JdkSslContext -Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+09:51:48.049 DEBUG channel.MultithreadEventLoopGroup --Dio.netty.eventLoopThreads: 8
+09:51:48.076 DEBUG nio.NioEventLoop --Dio.netty.noKeySetOptimization: false
+09:51:48.076 DEBUG nio.NioEventLoop --Dio.netty.selectorAutoRebuildThreshold: 512
+09:51:48.102 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@17b807e5
+09:51:48.106 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@e155214
+09:51:48.108 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5945eb1c
+09:51:48.110 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6d0c6c4c
+09:51:48.112 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39d2640d
+09:51:48.114 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1d7314d1
+09:51:48.116 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6b180168
+09:51:48.119 TRACE nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@65f86e4b
+09:51:48.180 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.numHeapArenas: 8
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.numDirectArenas: 8
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.pageSize: 8192
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.maxOrder: 11
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.chunkSize: 16777216
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.smallCacheSize: 256
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.normalCacheSize: 64
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedBufferCapacity: 32768
+09:51:48.181 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimInterval: 8192
+09:51:48.182 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimIntervalMillis: 0
+09:51:48.182 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.useCacheForAllThreads: true
+09:51:48.182 DEBUG buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+09:51:48.214 DEBUG buffer.ByteBufUtil --Dio.netty.allocator.type: pooled
+09:51:48.214 DEBUG buffer.ByteBufUtil --Dio.netty.threadLocalDirectBufferSize: 0
+09:51:48.214 DEBUG buffer.ByteBufUtil --Dio.netty.maxThreadLocalCharBufferSize: 16384
+09:51:49.474 DEBUG channel.DefaultChannelId --Dio.netty.processId: 10256 (auto-detected)
+09:51:49.479 DEBUG util.NetUtil --Djava.net.preferIPv4Stack: false
+09:51:49.479 DEBUG util.NetUtil --Djava.net.preferIPv6Addresses: false
+09:51:50.235 DEBUG util.NetUtilInitializations -Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+09:51:50.238 DEBUG util.NetUtil -Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+09:51:51.049 DEBUG channel.DefaultChannelId --Dio.netty.machineId: 64:6e:69:ff:fe:e2:89:43 (auto-detected)
+09:51:51.222 DEBUG buffer.AbstractByteBuf --Dio.netty.buffer.checkAccessible: true
+09:51:51.222 DEBUG buffer.AbstractByteBuf --Dio.netty.buffer.checkBounds: true
+09:51:51.223 DEBUG util.ResourceLeakDetectorFactory -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@aeaed3a
+09:51:51.298 DEBUG util.Recycler --Dio.netty.recycler.maxCapacityPerThread: 4096
+09:51:51.298 DEBUG util.Recycler --Dio.netty.recycler.maxSharedCapacityFactor: 2
+09:51:51.298 DEBUG util.Recycler --Dio.netty.recycler.linkCapacity: 16
+09:51:51.299 DEBUG util.Recycler --Dio.netty.recycler.ratio: 8
+09:51:51.299 DEBUG util.Recycler --Dio.netty.recycler.delayedQueue.ratio: 8
+09:51:53.027 DEBUG compression.Brotli -brotli4j not in the classpath; Brotli support will be unavailable.
+09:51:53.372 DEBUG internal.ThreadLocalRandom --Dio.netty.initialSeedUniquifier: 0x14dd332b7d2eb8a5
+09:52:07.500 TRACE websocketx.WebSocket08FrameEncoder -Encoding WebSocket Frame opCode=8 length=26
+09:52:25.832 DEBUG buffer.PoolThreadCache -Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-5
+09:52:25.833 DEBUG buffer.PoolThreadCache -Freed 20 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+09:52:25.832 DEBUG buffer.PoolThreadCache -Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-4

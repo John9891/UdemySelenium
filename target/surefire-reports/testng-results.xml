@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression TestSuite" duration-ms="223" started-at="2021-12-20T15:15:55 COT" finished-at="2021-12-20T15:15:55 COT">
+    <groups>
+      <group name="cars">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="testAudiA6" class="TestNGClasses.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="testBMWX6" class="TestNGClasses.TestNG_Grouping"/>
+      </group> <!-- cars -->
+      <group name="suv">
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="testBMWX6" class="TestNGClasses.TestNG_Grouping"/>
+      </group> <!-- suv -->
+      <group name="sedan">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="testAudiA6" class="TestNGClasses.TestNG_Grouping"/>
+      </group> <!-- sedan -->
+    </groups>
+    <test name="GroupsDemo" duration-ms="223" started-at="2021-12-20T15:15:55 COT" finished-at="2021-12-20T15:15:55 COT">
+      <class name="TestNGClasses.TestNG_Grouping">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="beforeClass" is-config="true" duration-ms="35" started-at="2021-12-20T15:15:55 COT" finished-at="2021-12-20T15:15:55 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testAudiA6()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="testAudiA6" duration-ms="3" started-at="2021-12-20T15:15:55 COT" finished-at="2021-12-20T15:15:55 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAudiA6 -->
+        <test-method status="PASS" signature="testBMWX6()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="testBMWX6" duration-ms="3" started-at="2021-12-20T15:15:55 COT" finished-at="2021-12-20T15:15:55 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMWX6 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNGClasses.TestNG_Grouping@37d31475]" name="afterClass" is-config="true" duration-ms="13" started-at="2021-12-20T15:15:55 COT" finished-at="2021-12-20T15:15:55 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNGClasses.TestNG_Grouping -->
+    </test> <!-- GroupsDemo -->
+  </suite> <!-- Regression TestSuite -->
+</testng-results>
